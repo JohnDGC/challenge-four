@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/assets/css/style.css" />
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="notifications">
+          <h2 class="notifications__title">Notifications</h2>
+          <span class="notifications__index">3</span>
+        </div>
+        <p id="mark_all_read">Mark all as read</p>
+      </header>
+      <main class="main">
+        <div class="notif_card unread">
+          <img src="src/assets/images/avatar-mark-webber.webp" alt="" />
+          <div class="description">
+            <p class="user">
+              <strong>Mark Webber</strong> reacted to your recent post
+              <b>My first tournament today!</b>
+            </p>
+            <p class="time">1m ago</p>
+          </div>
+        </div>
+        <div class="notif_card">
+          <img src="src/assets/images/avatar-angela-gray.webp" alt="" />
+          <div class="description">
+            <p class="user"><strong>Angela Gray</strong> followed you</p>
+            <p class="time">5m ago</p>
+          </div>
+        </div>
+        <div class="notif_card unread">
+          <img src="src/assets/images/avatar-jacob-thompson.webp" alt="" />
+          <div class="description">
+            <p class="user">
+              <strong>Jacob Thompson</strong> has joined your group
+              <a href="" class="link">Chess Club</a>
+            </p>
+            <p class="time">1 day ago</p>
+          </div>
+        </div>
+        <div class="notif_card">
+          <img src="src/assets/images/avatar-rizky-hasanuddin.webp" alt="" />
+          <div class="description">
+            <p class="user">
+              <strong>Rizky Hasanuddin</strong> sent you a private message
+            </p>
+            <p class="time">5 days ago</p>
+          </div>
+        </div>
+        <div class="message">
+          <p class="user">
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </p>
+        </div>
+        <div class="notif_card">
+          <img src="src/assets/images/avatar-kimberly-smith.webp" alt="" />
+          <div class="description">
+            <p class="user">
+              <strong>Kimberly Smith</strong> commented on your picture
+            </p>
+            <p class="time">1 week ago</p>
+          </div>
+          <img
+            src="src/assets/images/image-chess.webp"
+            class="chess-img"
+            alt=""
+          />
+        </div>
+        <div class="notif_card">
+          <img src="src/assets/images/avatar-nathan-peterson.webp" alt="" />
+          <div class="description">
+            <p class="user">
+              <strong>Nathan Peterson</strong> reacted to your recent post
+              <b>5 end-game strategies to increase your win rate</b>
+            </p>
+            <p class="time">2 weeks ago</p>
+          </div>
+        </div>
+        <div class="notif_card">
+          <img src="src/assets/images/avatar-anna-kim.webp" alt="" />
+          <div class="description">
+            <p class="user">
+              <strong>Anna Kim</strong> left the group
+              <a href="" class="link">Chess Club</a>
+            </p>
+            <p class="time">2 weeks ago</p>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    <script src="app.js"></script>
+  </body>
+</html>
