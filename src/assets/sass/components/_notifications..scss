@@ -1,0 +1,47 @@
+.notif_card {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: $Very-light-grayish-blue;
+  & img {
+    width: 50px;
+  }
+  .description {
+    margin-left: 1.5rem;
+  }
+  .link {
+    text-decoration: none;
+    color: $Blue;
+    font-weight: 800;
+  }
+  .time {
+    margin-top: 3px;
+    color: $Dark-grayish-blue;
+  }
+  .chess-img {
+    margin-left: auto;
+    cursor: pointer;
+  }
+}
+.message {
+  padding: 1rem;
+  margin-left: 7.5rem;
+  border: 1px solid $Light-grayish-blue-2;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: $Light-grayish-blue-1;
+  }
+}
+.unread {
+  background-color: $Light-grayish-blue-1;
+}
+.unread .user::after {
+  content: "";
+  background-color: $Red;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+}

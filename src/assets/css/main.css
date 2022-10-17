@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.4rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #f7fafd;
+}
+
+strong {
+  cursor: pointer;
+}
+
+b {
+  cursor: pointer;
+}
+
+b:hover {
+  color: #0a317b;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+header .notifications {
+  display: flex;
+  align-items: center;
+}
+header .notifications__index {
+  margin: 0px 10px 0px 10px;
+  padding: 3px 10px;
+  background-color: #0a317b;
+  color: #ffffff;
+  border-radius: 7px;
+}
+header #mark_all_read {
+  text-align: end;
+  cursor: pointer;
+}
+header #mark_all_read:hover {
+  color: #0a317b;
+}
+
+.container {
+  background-color: var(--White);
+  width: 700px;
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+}
+
+.notif_card {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #f7fafd;
+}
+.notif_card img {
+  width: 50px;
+}
+.notif_card .description {
+  margin-left: 1.5rem;
+}
+.notif_card .link {
+  text-decoration: none;
+  color: #0a317b;
+  font-weight: 800;
+}
+.notif_card .time {
+  margin-top: 3px;
+  color: #5e6778;
+}
+.notif_card .chess-img {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.message {
+  padding: 1rem;
+  margin-left: 8rem;
+  border: 1px solid #dde7ee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.message:hover {
+  background-color: #e5effa;
+}
+
+.unread {
+  background-color: #e5effa;
+}
+
+.unread .user::after {
+  content: "";
+  background-color: #f65351;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    font-size: 1.6rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

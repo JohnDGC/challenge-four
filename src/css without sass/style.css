@@ -55,7 +55,7 @@ header {
 #mark_all_read:hover {
   color: var(--Blue);
 }
-.main {
+main {
   display: flex;
   flex-direction: column;
   gap: 2rem;
